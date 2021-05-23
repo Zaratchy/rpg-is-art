@@ -12,16 +12,18 @@ import { CguRegisterComponent } from './register/cgu-register/cgu-register.compo
 import { EndRegisterComponent } from './register/end-register/end-register.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 const routes: Routes = [ 
-  { path: 'pseudo', component: PseudoComponent},
-  { path: 'email', component: EmailComponent},
+  { path: 'pseudo', component: PseudoComponent },
+  { path: 'email', component: EmailComponent },
   { path: 'password-register', component: PasswordRegisterComponent },
-  { path: 'avatar-register', component: AvatarRegisterComponent},
-  { path: 'cgu-register', component: CguRegisterComponent},
-  { path: 'end-register', component: EndRegisterComponent},
-  { path: 'login', component: LoginComponent},
-  { path: 'footer', component: LoginComponent}
+  { path: 'avatar-register', component: AvatarRegisterComponent },
+  { path: 'cgu-register', component: CguRegisterComponent },
+  { path: 'end-register', component: EndRegisterComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'footer', component: LoginComponent },
+  { path: 'nav-bar', component: NavBarComponent }
 ]
 
 @NgModule({
@@ -34,7 +36,8 @@ const routes: Routes = [
     CguRegisterComponent,
     EndRegisterComponent,
     LoginComponent,
-    FooterComponent
+    FooterComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

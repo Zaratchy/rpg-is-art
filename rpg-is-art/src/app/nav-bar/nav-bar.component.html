@@ -1,0 +1,40 @@
+<nav class = "navbar navbar-dark">
+  <div class="nav-left">
+    <a href="" title=""><img src="assets/img/logo-rpg-black.png" class="logo-rpg-black" alt="logo-rpg-is-art"></a>
+    <ul class="pc-nav-ul-links">
+        <li><a routerLink="/information">ACCUEIL</a></li>
+        <li><a routerLink="/notification">JEUX</a></li>
+        <li><a routerLink="/subscription">BOUTIQUE</a></li>
+    </ul>
+  </div>
+    <div class="nav-riht">
+      <a href="" title=""><img src="assets/img/logo-cart.png" class="logo-cart" alt="logo-panier"></a>
+      <a href="" title=""><img src="assets/img/logo-login-black.png" class="logo-login-black" alt="logo-login-black"></a>
+      <button class ="navbar-toggler" type = "button"
+              (click)="toggleNavbar()">
+              <span class ="navbar-toggler-icon"></span>
+      </button>
+    </div>
+</nav>
+  <div class = "collapse navbar-collapse"
+       [ngClass] = "{'show': navbarOpen}" >
+    <ul class = "nav-ul-profil">
+      <li><img class="logo-login" src="assets/img/logo-login.png"></li>
+      <li><h1>Pseudo</h1></li>
+      <li><h2>3000 or</h2></li>
+    </ul>
+    <ul class="nav-ul-links">
+      <li><a routerLink="/information">ACCUEIL</a></li>
+      <li><a routerLink="/notification">JEUX</a></li>
+      <li><a routerLink="/subscription">BOUTIQUE</a></li>
+    </ul>
+    <ul class="networks">
+      <li><a href="" title=""><img src="assets/img/youtube.png"></a></li>
+      <li><a href="" title=""><img src="assets/img/instagram.png"></a></li>
+      <li><a href="" title=""><img src="assets/img/twitter.png"></a></li>
+      <li><a href="" title=""><img src="assets/img/facebook.png"></a></li>
+    </ul>
+    <div class="button-disconnection">
+      <p><a href="" alt="">Déconnexion</a></p>
+    </div>
+  </div>
