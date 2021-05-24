@@ -22,7 +22,7 @@ const routes: Routes = [
   { path: 'cgu-register', component: CguRegisterComponent },
   { path: 'end-register', component: EndRegisterComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'footer', component: LoginComponent },
+  { path: 'footer', component: FooterComponent },
   { path: 'nav-bar', component: NavBarComponent }
 ]
 
