@@ -1,0 +1,204 @@
+/*global cart*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 25%;
+}
+
+.body-cart {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    width: 80%;
+    padding: 0 50px;
+    font-size: 15px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+    padding: 20px;
+}
+
+p {
+    font-weight: bold;
+}
+
+.screen-left {
+    text-align: center;
+}
+
+.screen-right {
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.magic,
+.weapons,
+.buff {
+    background-size: auto;
+    width: auto;
+    height: auto;
+}
+
+.product-top {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.product-top p {
+    padding-top: 6px;
+}
+
+.magic .screen-left {
+    background-image: url(/assets/img/background-magic.png);
+}
+
+.weapons .screen-left {
+    background-image: url(/assets/img/background-weapons.png);
+}
+
+.weapons .screen-right img {
+    width: 100px;
+}
+
+.buff .screen-left {
+    background-image: url(/assets/img/background-buff.png);
+}
+
+.body-cart img {
+    width: 30px;
+    height: 35px;
+    margin-right: 30px;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #1D3B6E;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px 0;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
+}
+
+button:hover {
+    background-color: #284f92;
+}
+
+@media screen and (min-width: 840px) {
+
+    h1 {
+        font-size: 20px;
+    }
+    
+    .magic,
+    .weapons,
+    .buff {
+        display: flex;
+        justify-content: center;
+        height: 550px;
+    }
+
+    .weapons {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .screen-left,
+    .screen-right {
+        width: 50%;
+    }
+
+    .screen-right {
+        margin: auto;
+    }
+
+    .screen-left {
+        background-position: center center;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 980px) {
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .magic,
+    .weapons,
+    .buff {
+        height: 500px;
+    }
+
+    .screen-right {
+        padding: 30px 90px;
+    }
+
+    .screen-left {
+        background-size: 90% 100%;
+    }
+}
+
+@media screen and (min-width: 1260px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .magic,
+    .weapons,
+    .buff {
+        height: 500px;
+    }
+
+    .magic,
+    .weapons,
+    .buff {
+        height: 600px;
+    }
+
+    .screen-right {
+        padding: 30px 100px;
+    }
+
+}
+
+@media screen and (min-width: 1530px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .magic,
+    .weapons,
+    .buff {
+        height: 500px;
+    }
+
+    .screen-right {
+        padding: 30px 150px;
+    }
+
+    .screen-left {
+        background-size: 670px 1000px;
+    }
+    
+}

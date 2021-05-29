@@ -13,6 +13,7 @@ import { EndRegisterComponent } from './register/end-register/end-register.compo
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { CartComponent } from './cart/cart.component';
 
 const routes: Routes = [ 
   { path: 'pseudo', component: PseudoComponent },
@@ -23,7 +24,8 @@ const routes: Routes = [
   { path: 'end-register', component: EndRegisterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'footer', component: FooterComponent },
-  { path: 'nav-bar', component: NavBarComponent }
+  { path: 'nav-bar', component: NavBarComponent },
+  { path: 'cart', component: CartComponent }
 ]
 
 @NgModule({
@@ -37,7 +39,8 @@ const routes: Routes = [
     EndRegisterComponent,
     LoginComponent,
     FooterComponent,
-    NavBarComponent
+    NavBarComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
