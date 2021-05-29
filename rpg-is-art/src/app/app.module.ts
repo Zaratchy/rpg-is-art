@@ -14,6 +14,7 @@ import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CartComponent } from './cart/cart.component';
+import { WitcherComponent } from './witcher/witcher.component';
 
 const routes: Routes = [ 
   { path: 'pseudo', component: PseudoComponent },
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'nav-bar', component: NavBarComponent },
-  { path: 'cart', component: CartComponent }
+  { path: 'cart', component: CartComponent },
+  {path: 'witcher', component: WitcherComponent}
 ]
 
 @NgModule({
@@ -40,7 +42,8 @@ const routes: Routes = [
     LoginComponent,
     FooterComponent,
     NavBarComponent,
-    CartComponent
+    CartComponent,
+    WitcherComponent
   ],
   imports: [
     BrowserModule,
