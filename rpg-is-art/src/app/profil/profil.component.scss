@@ -60,8 +60,16 @@ h1 {
     background-color: #1D3B6E;
 }
 
+.upgrade:hover {
+    background-color: #395fa0;
+}
+
 .delete {
     background-color: #CB0000;
+}
+
+.delete:hover {
+    background-color: #d12525;
 }
 
 @media screen and (min-width: 1260px) {
