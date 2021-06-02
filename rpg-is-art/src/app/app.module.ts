@@ -16,6 +16,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CartComponent } from './cart/cart.component';
 import { WitcherComponent } from './witcher/witcher.component';
 import { ProfilComponent } from './profil/profil.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [ 
   { path: 'pseudo', component: PseudoComponent },
@@ -29,7 +30,8 @@ const routes: Routes = [
   { path: 'nav-bar', component: NavBarComponent },
   { path: 'cart', component: CartComponent },
   {path: 'witcher', component: WitcherComponent },
-  {path: 'profil', component: ProfilComponent }
+  {path: 'profil', component: ProfilComponent },
+  {path: 'home', component: HomeComponent }
 ]
 
 @NgModule({
@@ -46,7 +48,8 @@ const routes: Routes = [
     NavBarComponent,
     CartComponent,
     WitcherComponent,
-    ProfilComponent
+    ProfilComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
